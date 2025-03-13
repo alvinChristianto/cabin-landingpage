@@ -1,5 +1,5 @@
 ---
-title: A mountain escape
+title: DELUXE
 description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
 heroImage: ./couple-9-square.jpg
 date: "Aug 5 2024"
