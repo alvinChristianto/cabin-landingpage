@@ -23,6 +23,7 @@ const sortedPortfolios = portfolios.sort((a, b) => {
 });
 
 const firstThreePortfolios = sortedPortfolios.slice(0, 3);
+// console.log(firstThreePortfolios[0].data.title)
 ---
 
 <section id="portfolio" class="site-container mt-12 scroll-mt-10 py-8 md:py-12">
@@ -35,11 +36,14 @@ const firstThreePortfolios = sortedPortfolios.slice(0, 3);
 		<div class="md:bg-base-100 md:rounded-md md:p-10 md:pb-6">
 			<PortfolioCard portfolio={firstThreePortfolios[0]} direction="vertical" />
 		</div>
-		<div class="flex h-full flex-col justify-between gap-y-6">
+		<div class="md:bg-base-100 md:rounded-md md:p-10 md:pb-6">
+			<PortfolioCard portfolio={firstThreePortfolios[1]} direction="vertical" />
+		</div>
+		<!-- <div class="flex h-full flex-col justify-between gap-y-6">
 			<PortfolioCard portfolio={firstThreePortfolios[1]} direction="horizontal" />
 			<hr class="border-base-100 hidden border md:block" />
 			<PortfolioCard portfolio={firstThreePortfolios[2]} direction="horizontal" />
-		</div>
+		</div> -->
 	</div>
 
 	<div class="mt-12 flex justify-center">

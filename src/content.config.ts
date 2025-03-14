@@ -7,7 +7,7 @@ const portfolios = defineCollection({
 	// type: "content",
 	loader: glob({
 		pattern: "**/[^_]*.{md,mdx}",
-		base: "./src/data/portfolios",
+		base: "./src/data/rooms",
 	}),
 	schema: ({ image }) =>
 		z.object({

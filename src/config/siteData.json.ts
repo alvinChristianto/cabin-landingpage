@@ -16,17 +16,17 @@ export interface SiteDataProps {
 
 // Update this file with your site specific information
 const siteData: SiteDataProps = {
-	name: "Horizon Photography",
+	name: "The Cabin Hotel Lovina",
 	// Your website's title and description (meta fields)
-	title: "Horizon - a beautiful photography website template made with Astro and Tailwind CSS",
+	title: "The Cabin Hotel Lovina",
 	description:
 		"Get your next website up and running quickly with our beautiful website theme designed using Astro and Tailwind CSS. Perfect for freelancers, developers, startups, and personal use.",
 	useViewTransitions: true,
 	// Your information!
 	author: {
-		name: "Cosmic Themes",
-		email: "creator@cosmicthemes.com",
-		twitter: "Cosmic_Themes",
+		name: "the cabin hotel ",
+		email: "info@thecabinhotelgroup.com",
+		twitter: "Cthe cabin hotel ",
 	},
 
 	// default image for meta tags if the page doesn't have an image already

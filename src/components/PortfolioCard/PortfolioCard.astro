@@ -15,6 +15,7 @@ interface Props {
 }
 
 const { portfolio, direction, noTransitions = false } = Astro.props as Props;
+console.log(portfolio);
 const { title, description, heroImage } = portfolio.data;
 ---
 
@@ -57,7 +58,7 @@ const { title, description, heroImage } = portfolio.data;
 			<p class="mt-4 lg:text-lg">{description}</p>
 		</div>
 		<div class="flex">
-			<Button variant="ghost" arrow="right" href={`/portfolio/${portfolio.id}`} class="pl-0">
+			<Button variant="ghost" arrow="right" href={`/rooms/${portfolio.id}`} class="pl-0">
 				Lihat
 			</Button>
 		</div>
