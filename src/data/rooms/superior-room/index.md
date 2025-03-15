@@ -1,18 +1,18 @@
 ---
 title: SUPERIOR
-description: The sandy shores, kissed by gentle waves, provided a serene backdrop for your beach wedding.
-heroImage: ./couple-3-square.jpg
+description: Discover the charm of Lovina Bali with a stay in our spacious SUPERIOR room, ideal for families.  Immerse yourself in the local culture and breathtaking natural surroundings, all while enjoying the comfort and convenience of our cabin
+heroImage: ./SUPERIOR_6.jpg
 date: "Jun 12 2024"
-location: Miami, Florida
-clients: [Alex, Jeff]
+location: Spacius Room for family
+clients: [Queen and Twin bed]
 images:
   [
-    [./couple-2-min-2.jpg, ./couple-2-min-2.jpg],
-    [./rings-wood-min-2.jpg, ./seals-min-2.jpg, ./rings-wood-min-2.jpg],
-    [./couple-9-2.jpg],
-    [./cake-min-2.jpg, ./dress-min-2.jpg],
+    [./SUPERIOR_6.jpg, ./SUPERIOR_2.jpg],
+    [./SUPERIOR_3.jpg, ./SUPERIOR_4.jpg, ./SUPERIOR_5.jpg],
+    [./SUPERIOR_1.jpg],
+    [./SUPERIOR_7.jpg, ./SUPERIOR_8.jpg],
   ]
 order: 2
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Discover the charm of Lovina Bali with a stay in our spacious SUPERIOR room, ideal for families.  Immerse yourself in the local culture and breathtaking natural surroundings, all while enjoying the comfort and convenience of our cabin

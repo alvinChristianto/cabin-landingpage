@@ -1,18 +1,18 @@
 ---
 title: DELUXE
-description: Transform your wedding moments into lasting memories amidst California's majestic mountains.
-heroImage: ./couple-9-square.jpg
+description: Cabin Lovina Bali's DELUXE rooms are designed with the modern traveler in mind.  Enjoy comfortable and functional accommodations, providing all the essentials for a relaxing stay.  Perfect for those seeking a convenient base to explore the beauty of Lovina.
+heroImage: ./DELUXE_6.jpg
 date: "Aug 5 2024"
-location: Malibu, California
-clients: [Hannah, Marco]
+location: Spacious room for travelers and couple
+clients: [Queen and Twin bed]
 images:
   [
-    [./couple-2-min-1.jpg, ./couple-2-min-1.jpg],
-    [./rings-wood-min-1.jpg, ./seals-min-1.jpg, ./rings-wood-min-1.jpg],
-    [./couple-9-1.jpg],
-    [./cake-min-1.jpg, ./dress-min-1.jpg],
+    [./DELUXE_6.jpg, ./DELUXE_2.jpg],
+    [./DELUXE_3.jpg, ./DELUXE_4.jpg, ./DELUXE_5.jpg],
+    [./DELUXE_1.jpg],
+    [./DELUXE_7.jpg, ./DELUXE_8.jpg],
   ]
 order: 1
 ---
 
-This Malibu wedding was a breathtaking affair. The stunning mountain views provided a picturesque backdrop. The photographs beautifully captured the intimate moments, the vibrant energy, and the overall romantic ambiance of the day.
+Cabin Lovina Bali's DELUXE rooms are designed with the modern traveler in mind.  Enjoy comfortable and functional accommodations, providing all the essentials for a relaxing stay.  Perfect for those seeking a convenient base to explore the beauty of Lovina.
