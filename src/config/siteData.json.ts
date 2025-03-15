@@ -20,19 +20,19 @@ const siteData: SiteDataProps = {
 	// Your website's title and description (meta fields)
 	title: "The Cabin Hotel Lovina",
 	description:
-		"Get your next website up and running quickly with our beautiful website theme designed using Astro and Tailwind CSS. Perfect for freelancers, developers, startups, and personal use.",
+		"The Cabin Hotel Lovina Bali with spacious room, clean and affordable price",
 	useViewTransitions: true,
 	// Your information!
 	author: {
-		name: "the cabin hotel ",
+		name: "the cabin hotel lovina",
 		email: "info@thecabinhotelgroup.com",
-		twitter: "Cthe cabin hotel ",
+		twitter: "the cabin hotel lovina",
 	},
 
 	// default image for meta tags if the page doesn't have an image already
 	defaultImage: {
 		src: "/images/cosmic-themes-logo.jpg",
-		alt: "Cosmic Themes logo",
+		alt: "the cabin hotel lovina",
 	},
 };
 

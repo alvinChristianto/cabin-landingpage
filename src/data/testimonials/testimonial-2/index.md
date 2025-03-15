@@ -1,6 +1,6 @@
 ---
-title: HANNAH & MARCO
-testimonial: Hiring Jenna was one of the best decisions we made for our wedding. Not only was their work incredibly professional and artistic, but they also made us feel so comfortable and at ease throughout the entire process.
+title: Alvin, Malaysia
+testimonial: The rooms are incredibly clean, and the staff's attention to detail is remarkable. Excellent service all around!
 image: ./couple-2-crop.jpg
 order: 1
 ---
