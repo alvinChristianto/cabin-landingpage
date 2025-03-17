@@ -25,6 +25,11 @@ const navConfig: navItem[] = [
 		text: "Services",
 		link: "/#services",
 	},
+	{
+		text: "Public Area",
+		link: "/#publicarea",
+	},
+	
 	// {
 	// 	text: "Pages",
 	// 	dropdown: [
