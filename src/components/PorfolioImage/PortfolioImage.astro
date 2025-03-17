@@ -12,13 +12,13 @@ const maxWidth = 1120;
 const width = maxWidth / numCols;
 ---
 
-<div class="h-full w-full max-w-6xl">
+<div class="h-full w-full max-w-6xl rounded-sm">
 	<Image
 		src={image}
 		alt="portfolio image"
 		width={width}
 		quality="high"
 		densities={[1.5, 2]}
-		class="h-auto min-h-full w-full min-w-full object-cover"
+		class="h-auto min-h-full w-full min-w-full object-cover rounded-sm drop-shadow-md hover:drop-shadow-lg transition duration-150"
 	/>
 </div>

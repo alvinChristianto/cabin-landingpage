@@ -15,7 +15,6 @@ interface Props {
 }
 
 const { portfolio, direction, noTransitions = false } = Astro.props as Props;
-console.log(portfolio);
 const { title, description, heroImage } = portfolio.data;
 ---
 
@@ -35,7 +34,7 @@ const { title, description, heroImage } = portfolio.data;
 					alt={title}
 					width={450}
 					densities={[1.5, 2, 3]}
-					class="h-auto min-h-full w-full min-w-full object-cover"
+					class="h-auto min-h-full w-full min-w-full object-cover rounded-sm drop-shadow-md hover:drop-shadow-lg transition duration-150"
 				/>
 			)
 		}
@@ -46,7 +45,7 @@ const { title, description, heroImage } = portfolio.data;
 					alt={title}
 					width={450}
 					densities={[1.5, 2, 3]}
-					class="h-auto min-h-full w-full min-w-full object-cover"
+					class="h-auto min-h-full w-full min-w-full object-cover rounded-sm drop-shadow-md hover:drop-shadow-lg transition duration-150"
 					transition:name={`portfolio-image-${portfolio.id}`}
 				/>
 			)

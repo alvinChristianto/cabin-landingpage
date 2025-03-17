@@ -13,6 +13,7 @@ images:
     [./DELUXE_7.jpg, ./DELUXE_8.jpg],
   ]
 order: 1
+link: "https://www.thecabinhotelgroup.com/Checkin-checkout-freely/the-cabin-hotel-lovina-220_93"
 ---
 
 Cabin Lovina Bali's DELUXE rooms are designed with the modern traveler in mind.  Enjoy comfortable and functional accommodations, providing all the essentials for a relaxing stay.  Perfect for those seeking a convenient base to explore the beauty of Lovina.
