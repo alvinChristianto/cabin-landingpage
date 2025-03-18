@@ -31,7 +31,7 @@ const siteData: SiteDataProps = {
 
 	// default image for meta tags if the page doesn't have an image already
 	defaultImage: {
-		src: "/images/cosmic-themes-logo.jpg",
+		src: "/_astro/area_1.BsQA6VX9_23QJpT.webp",
 		alt: "the cabin hotel lovina",
 	},
 };
