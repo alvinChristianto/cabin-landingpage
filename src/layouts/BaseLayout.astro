@@ -33,6 +33,20 @@ const {
 <!doctype html>
 <html lang="en" transition:animate="fade">
 	<head>
+		<!-- Google tag (gtag.js) -->
+		<script
+			type="text/partytown"
+			async
+			src="https://www.googletagmanager.com/gtag/js?id=GTM-T8GHHQKB"></script>
+		<script type="text/partytown">
+			window.dataLayer = window.dataLayer || [];
+			function gtag() {
+				dataLayer.push(arguments);
+			}
+			gtag("js", new Date());
+
+			gtag("config", "GTM-T8GHHQKB");
+		</script>
 		<BaseHead
 			type={type}
 			title={title}

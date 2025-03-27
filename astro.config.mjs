@@ -7,6 +7,8 @@ import sitemap from "@astrojs/sitemap";
 import compress from "@playform/compress";
 import AutoImport from "astro-auto-import";
 
+import partytown from '@astrojs/partytown'
+
 // https://astro.build/config
 export default defineConfig({
 	site: "https://lovina.thecabinhotelgroup.com/",
@@ -46,6 +48,11 @@ export default defineConfig({
 			Image: false, // astro:assets handles this. Enabling this can dramatically increase build times
 			SVG: false, // astro-icon handles this
 		}),
+		partytown({
+            config: {
+              forward: ["dataLayer.push"],
+            },
+        }),
 	],
 	vite: {
 		plugins: [tailwindcss()],
