@@ -44,7 +44,7 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 		<Image
 			src={headerImage}
 			alt="Portfolio header"
-			class="absolute inset-0 h-auto min-h-full w-full min-w-full object-cover rounded-sm md:hidden drop-shadow-md transition duration-150"
+			class="absolute inset-0 h-auto min-h-full w-full min-w-full rounded-sm object-cover drop-shadow-md transition duration-150 md:hidden"
 			width={600}
 			densities={[1.5, 2]}
 			loading="eager"
@@ -52,7 +52,7 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 		<Image
 			src={headerImage}
 			alt="Portfolio header"
-			class="absolute inset-0 hidden h-auto min-h-full w-full min-w-full object-cover rounded-sm md:block drop-shadow-md transition duration-150"
+			class="absolute inset-0 hidden h-auto min-h-full w-full min-w-full rounded-sm object-cover drop-shadow-md transition duration-150 md:block"
 			width={1920}
 			densities={[1.5, 2]}
 			loading="eager"
@@ -72,7 +72,7 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 				width={1120}
 				quality="high"
 				densities={[1.5, 2]}
-				class="h-auto min-h-full w-full min-w-full object-cover rounded-sm drop-shadow-md hover:drop-shadow-lg transition duration-150"
+				class="h-auto min-h-full w-full min-w-full rounded-sm object-cover drop-shadow-md transition duration-150 hover:drop-shadow-lg"
 				transition:name={`portfolio-image-${portfolio.id}`}
 			/>
 		</div>
@@ -93,6 +93,16 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 		<div class="description mt-6 text-center text-pretty md:text-lg">
 			<slot />
 		</div>
+		<div class="mt-12 flex justify-center">
+			<Button
+				variant="primary"
+				arrow="right"
+				href="https://www.thecabinhotelgroup.com/Hotel/the-cabin-hotel-lovina-220"
+				class="bg-orange-600 text-2xl text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] hover:bg-orange-600/80 md:text-3xl"
+			>
+				Reservation Now
+			</Button>
+		</div>
 
 		<!-- portfolio images -->
 		<div class="mx-auto mt-12 max-w-5xl space-y-6 md:mt-20 md:space-y-16">
@@ -100,7 +110,7 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 				images.map((imageGroup) => (
 					<div
 						class:list={[
-							"mb-6 grid gap-6 md:gap-16 rounded-sm",
+							"mb-6 grid gap-6 rounded-sm md:gap-16",
 							{
 								"grid-cols-1": imageGroup.length === 1,
 								"grid-cols-2": imageGroup.length === 2,
@@ -118,9 +128,16 @@ const otherPortfolios = await getCollection("portfolios", (otherPortfolio) => {
 	</article>
 
 	<div class="mt-12 flex justify-center">
-		<Button href="https://www.thecabinhotelgroup.com/Hotel/the-cabin-hotel-lovina-220" target="_blank" variant="primary">Reservation Now {link}</Button>
+		<Button
+			variant="primary"
+			arrow="right"
+			href="https://www.thecabinhotelgroup.com/Hotel/the-cabin-hotel-lovina-220"
+			class="bg-orange-600 text-2xl text-white drop-shadow-[0_1px_1px_rgba(0,0,0,0.2)] hover:bg-orange-600/80 md:text-3xl"
+		>
+			Reservation Now
+		</Button>
 	</div>
-	
+
 	<TestimonialQuote />
 
 	<section class="mx-auto mt-12 px-4 md:mt-16 md:max-w-5xl">
